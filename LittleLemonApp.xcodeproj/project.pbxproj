@@ -29,6 +29,7 @@
 		93C244142C4C4B0300471D51 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C244132C4C4B0300471D51 /* MenuItem.swift */; };
 		93C244162C4C4B1100471D51 /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C244152C4C4B1100471D51 /* MenuList.swift */; };
 		93C2441A2C4C4B6500471D51 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C244192C4C4B6500471D51 /* Extensions.swift */; };
+		93C2441C2C4C4EA600471D51 /* FetchObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C2441B2C4C4EA600471D51 /* FetchObjects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		93C244132C4C4B0300471D51 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		93C244152C4C4B1100471D51 /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
 		93C244192C4C4B6500471D51 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		93C2441B2C4C4EA600471D51 /* FetchObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchObjects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 			children = (
 				93C243D72C4C3BDA00471D51 /* LittleLemonApp.xcdatamodeld */,
 				93C243D52C4C3BDA00471D51 /* Persistence.swift */,
+				93C2441B2C4C4EA600471D51 /* FetchObjects.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				93C244092C4C48F800471D51 /* FoodItemView.swift in Sources */,
 				93C244142C4C4B0300471D51 /* MenuItem.swift in Sources */,
 				93C244162C4C4B1100471D51 /* MenuList.swift in Sources */,
+				93C2441C2C4C4EA600471D51 /* FetchObjects.swift in Sources */,
 				93C2440B2C4C491200471D51 /* MainScreenView.swift in Sources */,
 				93C243D92C4C3BDA00471D51 /* LittleLemonApp.xcdatamodeld in Sources */,
 				93C243CF2C4C3BD800471D51 /* ContentView.swift in Sources */,
