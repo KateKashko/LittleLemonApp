@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct MainScreenView: View {
+    @Environment(\.managedObjectContext) private var viewContext
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack {
+                Header()
+                Menu()
+            }
+        }
     }
 }
 
