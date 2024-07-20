@@ -13,8 +13,8 @@ struct MainScreenView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Header()
-                Menu()
+                HeaderView()
+                MenuView()
             }
         }
     }

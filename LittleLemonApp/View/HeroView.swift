@@ -29,7 +29,7 @@ struct HeroView: View {
                     .font(.leadText())
                     .frame(maxWidth: .infinity, alignment: .leading)
                 }
-                Image("hero-image")
+                Image("HeroImage")
                     .resizable()
                     .aspectRatio( contentMode: .fill)
                     .frame(maxWidth: 120, maxHeight: 140)

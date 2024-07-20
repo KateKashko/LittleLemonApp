@@ -46,6 +46,6 @@ struct FoodItemView: View {
     }
 }
 
-#Preview {
-    FoodItemView()
-}
+//#Preview {
+//    FoodItemView()
+//}

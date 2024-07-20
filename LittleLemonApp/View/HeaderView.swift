@@ -14,12 +14,12 @@ struct HeaderView: View {
         NavigationStack {
             VStack {
                 ZStack {
-                    Image("logo")
+                    Image("Logo")
                     HStack {
                         Spacer()
                         if isLoggedIn {
-                            NavigationLink(destination: UserProfile()) {
-                                Image("profile-image-placeholder")
+                            NavigationLink(destination: UserProfileView()) {
+                                Image("Profile")
                                     .resizable()
                                     .aspectRatio( contentMode: .fit)
                                     .frame(maxHeight: 50)

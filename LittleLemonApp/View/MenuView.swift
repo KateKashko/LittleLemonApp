@@ -33,7 +33,7 @@ struct MenuView: View {
                 VStack {
                     if !isKeyboardVisible {
                         withAnimation() {
-                            Hero()
+                            HeroView()
                                 .frame(maxHeight: 180)
                         }
                     }
@@ -63,8 +63,8 @@ struct MenuView: View {
                                sortDescriptors: buildSortDescriptors()) {
                     (dishes: [Dish]) in
                     List(dishes) { dish in
-                        NavigationLink(destination: DetailItem(dish: dish)) {
-                            FoodItem(dish: dish)
+                        NavigationLink(destination: DetailItemView(dish: dish)) {
+                            FoodItemView(dish: dish)
                         }
                     }
                     .listStyle(.plain)

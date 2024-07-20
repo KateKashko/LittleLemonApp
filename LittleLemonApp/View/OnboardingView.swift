@@ -24,13 +24,13 @@ struct OnboardingView: View {
         NavigationStack {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack {
-                    Header()
-                    Hero()
+                    HeaderView()
+                    HeroView()
                         .padding()
                         .background(Color.primaryColor1)
                         .frame(maxWidth: .infinity, maxHeight: 240)
                     VStack {
-                        NavigationLink(destination: Home(), isActive: $isLoggedIn) { }
+                        NavigationLink(destination: HomeView(), isActive: $isLoggedIn) { }
                         Text("First name *")
                             .onboardingTextStyle()
                         TextField("First Name", text: $firstName)

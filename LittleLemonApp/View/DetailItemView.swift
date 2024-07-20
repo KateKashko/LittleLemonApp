@@ -42,6 +42,6 @@ struct DetailItemView: View {
     }
 }
 
-#Preview {
-    DetailItemView()
-}
+//#Preview {
+//    DetailItemView()
+//}
