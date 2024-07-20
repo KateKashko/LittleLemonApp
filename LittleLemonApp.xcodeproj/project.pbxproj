@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		93C243CD2C4C3BD800471D51 /* LittleLemonAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C243CC2C4C3BD800471D51 /* LittleLemonAppApp.swift */; };
-		93C243CF2C4C3BD800471D51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C243CE2C4C3BD800471D51 /* ContentView.swift */; };
 		93C243D12C4C3BDA00471D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C243D02C4C3BDA00471D51 /* Assets.xcassets */; };
 		93C243D42C4C3BDA00471D51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C243D32C4C3BDA00471D51 /* Preview Assets.xcassets */; };
 		93C243D62C4C3BDA00471D51 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C243D52C4C3BDA00471D51 /* Persistence.swift */; };
@@ -52,7 +51,6 @@
 /* Begin PBXFileReference section */
 		93C243C92C4C3BD800471D51 /* LittleLemonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleLemonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C243CC2C4C3BD800471D51 /* LittleLemonAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonAppApp.swift; sourceTree = "<group>"; };
-		93C243CE2C4C3BD800471D51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		93C243D02C4C3BDA00471D51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93C243D32C4C3BDA00471D51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		93C243D52C4C3BDA00471D51 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -209,7 +207,6 @@
 		93C244172C4C4B2700471D51 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				93C243CE2C4C3BD800471D51 /* ContentView.swift */,
 				93C243CC2C4C3BD800471D51 /* LittleLemonAppApp.swift */,
 			);
 			path = App;
@@ -367,7 +364,6 @@
 				93C2441C2C4C4EA600471D51 /* FetchObjects.swift in Sources */,
 				93C2440B2C4C491200471D51 /* MainScreenView.swift in Sources */,
 				93C243D92C4C3BDA00471D51 /* LittleLemonApp.xcdatamodeld in Sources */,
-				93C243CF2C4C3BD800471D51 /* ContentView.swift in Sources */,
 				93C2441A2C4C4B6500471D51 /* Extensions.swift in Sources */,
 				93C243FD2C4C47D700471D51 /* OnboardingView.swift in Sources */,
 				93C243CD2C4C3BD800471D51 /* LittleLemonAppApp.swift in Sources */,
